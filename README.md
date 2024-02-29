@@ -1,3 +1,5 @@
+![alt text](https://i3.ytimg.com/vi/38Ol_aTdsw0/maxresdefault.jpg)
+
 Setup:
 To run this project create a virtual environment by running the below commands.
 
