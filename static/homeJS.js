@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'dropdown2': dropdownTo
             }));
             localStorage.setItem('detectedLanguage', dropdownTo);
-            window.location.href = '/index/';
+            window.location.href = 'index.html';
         } else {
             alert('Please select options from both dropdowns.');
         }
