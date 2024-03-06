@@ -54,7 +54,7 @@ ROOT_URLCONF = 'LectureLingo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "transcript/templates/")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
