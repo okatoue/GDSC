@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),  # Assuming you have a home view for the root URL
-    path('index-page/', views.index, name='index')
+    path('index/', views.index, name='index'),  # Add this line if not already present
+    path('admin/', admin.site.urls),
 ]
