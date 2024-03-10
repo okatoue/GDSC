@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var websocket = new WebSocket('ws://localhost:8000/ws/path/');
+    var websocket = new WebSocket('ws://18.222.182.68:80/ws/path/');
 
     document.querySelector('#sendButton').onclick = function() {
         var value1 = document.querySelector('#dropdown1').value;
