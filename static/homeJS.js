@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var websocket = new WebSocket('ws://18.222.182.68:80/ws/path/');
+    var ws_scheme = window.location.protocol == "https:" ? "wss" : "ws";
+    var ws_path = ws_scheme + '://18.222.182.68/ws/path/';
+    var websocket = new WebSocket(ws_path);
 
     document.querySelector('#sendButton').onclick = function() {
         var value1 = document.querySelector('#dropdown1').value;
