@@ -29,8 +29,6 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'index',
-    'home',
     'channels',
     'transcript',
     'LectureLingo',
